@@ -1,12 +1,18 @@
 {
-  "name": "myapplication",
-  "version": "1.0.0",
+  "name": "jatin_nandwani",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "start" : "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keyword" : [
+    "jatin node js",
+    "node structure with mysql sequelize",
+    "node js config with mysql using sequelize"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -23,5 +29,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
-  }
+  },
+  "repository":{
+    "type" : "git",
+    "url" : "git + https://github.com/jatinnandwani/configuring-Mysql-sequlize-node-express-server.git"
+  },
+  "bugs" : {
+    "url" : "https://github.com/jatinnandwani/configuring-Mysql-sequlize-node-express-server.git"
+  },
+  "homepage" : "https://github.com/jatinnandwani/configuring-Mysql-sequlize-node-express-server.git#readme"
 }

@@ -37,19 +37,6 @@ module.exports = {
             })
     },
 
-    // async getAllTheUsers(req, res){
-    //     Models.Users.findAll({
-    //         include: [{
-    //             model: [Models.Roles],
-    //         }]
-    //     }).then(function (users) {
-    //         res.send({ 'AllUSers' : users })
-    //     }).catch(function(err) {
-            
-    //         res.send({ 'AllUSers' : 'users1', err :err })
-    //     });
-    //   },
-
     async getAllTheUsers(req, res){ 
         Models.Users.findAll({
             include : [ {
